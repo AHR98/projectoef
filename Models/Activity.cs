@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 public class Activity
 {
-    [Key]
+    //[Key]
     public Guid ActivityID{get; set;}
-    [ForeignKey("CategoryID")]
+    //[ForeignKey("CategoryID")]
     public Guid CategoryID{get; set;}
-    [Required]
-    [MaxLength(200)]
+    //[Required]
+    //[MaxLength(200)]
     public string Title {get; set;}
     public string Description{get; set;}
     public Priority priorityActivity{get; set;}
