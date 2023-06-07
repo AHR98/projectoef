@@ -13,7 +13,7 @@ public class Activity
     public string Description{get; set;}
     public Priority priorityActivity{get; set;}
     [NotMapped]
-    public DateOnly createdDate{get; set;}
+    public DateTime createdDate{get; set;}
     public virtual Category Category {get; set;}
     [NotMapped]
     public string Resume {get; set;}
